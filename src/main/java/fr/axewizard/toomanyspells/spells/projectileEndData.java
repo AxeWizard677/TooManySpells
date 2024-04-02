@@ -14,8 +14,9 @@ public class projectileEndData {
         this.hitSomething = false;
     }
 
-    public projectileEndData(boolean hitSomething) {
-        this.hitSomething = hitSomething;
+    public projectileEndData(Location location, Vector direction) {
+        this.location = location;
+        this.direction = direction;
     }
 
 }

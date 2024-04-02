@@ -16,6 +16,11 @@ import java.util.function.Predicate;
 
 public class basicProjectile {
 
+    projectileEndData data;
+
+    basicProjectile(projectileEndData data) {
+        this.data = data;
+    }
 
     public void visibleBeam(Vector direction, Location location, double length, Particle particle) {
         double step = 1;
